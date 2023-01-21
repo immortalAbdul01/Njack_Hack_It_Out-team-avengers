@@ -1,0 +1,26 @@
+{
+  "name": "hackitoutiitpatna-team-avengers",
+  "version": "1.0.0",
+  "description": "Our website allows users to create, edit, and save notes with the added feature of a drawing pen tool. You can use the pen to draw, sketch or make diagrams while taking notes.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immortalAbdul01/HackItOutIItPatna-team-avengers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immortalAbdul01/HackItOutIItPatna-team-avengers/issues"
+  },
+  "homepage": "https://github.com/immortalAbdul01/HackItOutIItPatna-team-avengers#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4",
+    "validator": "^13.7.0"
+  }
+}
