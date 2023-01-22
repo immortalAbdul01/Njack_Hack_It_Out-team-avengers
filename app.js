@@ -15,7 +15,7 @@ app.listen(2000, () => {
 app.use(express.json())
 mongoose
     .connect(process.env.DB, {
-        // strictQuery: true
+        // strictQuery: true,
         // useCreateIndex: true,
         // useFindAndModify: false,
         // useUnifiedTopology: true
