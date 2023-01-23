@@ -17,3 +17,20 @@ exports.signIn = async (req, res) => {
     }
 
 }
+
+exports.login = async (req, res) => {
+    const { email, password } = req.body
+    const user = await User.findOne({ email: email }).select('+createPassword')
+    if (!await user.correctPassword(password, user.createPassword)) {
+        res.status(404).json({
+            status: 'failed',
+            mssg: 'incorrect password or email'
+        })
+    }
+    res.status(201).json({
+        status: 'sucess',
+        mssg: 'you have sucessfully logged in',
+        user: user
+    })
+
+}
