@@ -8,3 +8,8 @@ Our website allows users to create, edit, and save notes with the added feature 
 ## Website Overview
 
 ![alt text](https://github.com/immortalAbdul01/HackItOutIItPatna-team-avengers/blob/master/Public/images/Screenshot%20(529).png?raw=true)
+
+## Thanks to all the contributors ❤️
+<a href = "https://github.com/immortalAbdul01/HackItOutIItPatna-team-avengers/contributors">
+  <img src = "https://contrib.rocks/image?repo=immortalAbdul01/HackItOutIItPatna-team-avengers"/>
+</a>
