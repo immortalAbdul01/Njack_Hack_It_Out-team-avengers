@@ -1,0 +1,18 @@
+body{ 
+  padding:3rem;
+   background-color:#A75D5D;
+
+   
+}
+h1{
+  padding:20px;
+  color: #A75D5D;
+}
+.Form{
+  width:100%;
+  max-width:400px;
+  padding:1rem 1rem;
+  margin:auto;
+  background-color: white;
+}
+
