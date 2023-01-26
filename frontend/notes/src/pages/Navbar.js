@@ -22,7 +22,7 @@ export default function navbar() {
                                 <a class="nav-link" href="">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="">Download</a>
+                                <a class="nav-link" href="/logIn">Download</a>
                             </li>
                         </ul>
 
