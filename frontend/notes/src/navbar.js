@@ -46,7 +46,7 @@ export default function navbar() {
                         class="fab fa-google-play"></i>Download</button>
                 </div>
                 <div class="col-lg-6">
-                    <img class="title-image" src="images/notes.webp" alt="notes" />
+                    <img class="title-image" src="https://i.dawn.com/primary/2015/02/54d4a75555fc5.gif" alt="notes" />
                 </div>
             </div>
         </section>
