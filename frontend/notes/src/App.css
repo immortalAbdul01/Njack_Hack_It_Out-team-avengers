@@ -1,4 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
+
   text-align: center;
 }
 
@@ -174,6 +180,19 @@ a:hover {
   outline: none;
   color: #fff;
 }
+
+#title {
+  margin: 0%;
+  background-color: rgb(103, 34, 46);
+  color: white;
+  padding: 15px;
+  width: 1220px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  /* position: fixed; */
+}
+
+
 
 @keyframes App-logo-spin {
   from {
