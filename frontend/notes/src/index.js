@@ -5,12 +5,19 @@ import App from './App';
 import Navbar from './pages/Navbar';
 import reportWebVitals from './reportWebVitals';
 // import Login from './Login';
-
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+// import noteReducer from './NotesComponents/Note/Notes'
+// const store = createStore(noteReducer);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
+
+
     {/* <Navbar /> */}
     <App />
+
 
 
   </React.StrictMode>

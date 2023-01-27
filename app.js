@@ -9,11 +9,12 @@ const cors = require('cors')
 dotenv.config({
     path: './config.env'
 })
-app.post("/post", (req, res) => {
-    console.log("Connected to React");
-    res.redirect("/");
-});
-app.use(express.static(path.join(__dirname, '../client/build')));
+app.use(cors())
+// app.post("/post", (req, res) => {
+//     console.log("Connected to React");
+//     res.redirect("/");
+// });
+// app.use(express.static(path.join(__dirname, '../client/build')));
 
 app.listen(2000, () => {
     console.log('server has been started ');

@@ -2,7 +2,15 @@ const User = require('./../models/userModel')
 exports.signIn = async (req, res) => {
     try {
 
-        const user = await User.create(req.body)
+        const user = await User.create({
+            name: req.body.name,
+
+            email: req.body.email,
+            createPassword: req.body.createPassword,
+            passwordConfirm: req.body.passwordConfirm
+
+
+        })
         res.status(201).json({
             status: 'sucess',
             data: user
@@ -20,7 +28,7 @@ exports.signIn = async (req, res) => {
 
 exports.login = async (req, res) => {
     const { email, password } = req.body
-    const user = await User.findOne({ email: email }).select('+createPassword')
+    const user = await User.findOne({ email: email, }).select('+createPassword')
     if (!await user.correctPassword(password, user.createPassword)) {
         res.status(404).json({
             status: 'failed',
@@ -30,7 +38,9 @@ exports.login = async (req, res) => {
     res.status(201).json({
         status: 'sucess',
         mssg: 'you have sucessfully logged in',
-        user: user
+        user: user,
+        name: user.name
+
     })
 
 }
