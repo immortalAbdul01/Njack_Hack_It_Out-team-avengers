@@ -31,6 +31,7 @@ export default function Login() {
     }
     return (
 
+
         <form onSubmit={loginUser}>
 
 
@@ -47,7 +48,7 @@ export default function Login() {
                 type="password" placeholder="" class="form-control" /><br />
 
             <button type="submit" id="btn-submit" class="btn btn-primary btn-lg btn-block">Login</button>
-
+            <h1>Backend is not implemented yet </h1>
         </form>
 
 

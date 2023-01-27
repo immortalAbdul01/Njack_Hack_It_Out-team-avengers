@@ -1,7 +1,7 @@
 .note {
     padding: 25px;
     height: 280px;
-    width: 260px;
+    width: 160px;
     display: flex;
     flex-direction: column;
     background-color: blueviolet;
@@ -12,7 +12,7 @@
     flex: 1;
     resize: none;
     background-color: transparent;
-    font-size: 1rem;
+    font-size: 2rem;
     line-height: 1.875rem;
     outline: none;
     border: none;

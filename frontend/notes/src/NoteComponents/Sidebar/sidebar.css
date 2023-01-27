@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    position: fixed;
+    top: 0;
 }
 
 .sidebar img {

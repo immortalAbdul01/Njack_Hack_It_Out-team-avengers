@@ -70,6 +70,8 @@ export default function SignUp() {
                 <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
             </p>
             <p>Already have an account ? <a href="#">Login Here</a></p>
+            <h1>Backend is not implemented yet </h1>
+
         </main>
 
     )

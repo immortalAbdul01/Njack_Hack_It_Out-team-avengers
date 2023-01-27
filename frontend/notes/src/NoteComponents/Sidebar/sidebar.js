@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// import plusIcon from "../../assets/plus.png";
+import plusIcon from "../../assets/plus.png";
 
 import "./sidebar.css";
 
@@ -10,8 +10,8 @@ function Sidebar(props) {
     const [listOpen, setListOpen] = useState(false);
 
     return (
-        <div className="sidebar">
-            <img alt="Add" onClick={() => setListOpen(!listOpen)} />
+        <div className="sidebar" id="sidebar">
+            <img alt="Add" src={plusIcon} onClick={() => setListOpen(!listOpen)} />
             <ul className={`sidebar_list ${listOpen ? "sidebar_list_active" : ""}`}>
                 {colors.map((item, index) => (
                     <li

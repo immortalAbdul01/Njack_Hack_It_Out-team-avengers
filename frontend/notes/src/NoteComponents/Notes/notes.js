@@ -1,6 +1,6 @@
 import React from "react";
 
-// import deleteIcon from "../../assets/delete.svg";
+import deleteIcon from "../../assets/delete.svg";
 
 import "./notes.css";
 
@@ -59,7 +59,7 @@ function Note(props) {
             <div className="note_footer">
                 <p>{formatDate(props.note.time)}</p>
                 <img
-
+                    src={deleteIcon}
                     alt="DELETE"
                     onClick={() => props.deleteNote(props.note.id)}
                 />
