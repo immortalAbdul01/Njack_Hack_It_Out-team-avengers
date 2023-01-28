@@ -1,14 +1,40 @@
-# HackIt Out IIT Patna team-avengers
-# notes web app for hackathon
+# Hack It Out IIT Patna team avengers
+## Keep Notes 
 
-## Welcome to Our Notes Website!
+
 ## Introduction
 Our website allows users to create, edit, and save notes with the added feature of a drawing pen tool. You can use the pen to draw, sketch or make diagrams while taking notes.
 
+
+## Features
+1. Rich Text editor
+2. Drawing pen
+3. Sticky notes
+4. White board
+
+## Rich Text editor
+The rich text editor allows users to format text with bold, italic, underline, and other options. 
+
+## Drawing pen
+The drawing pen feature allows users to draw and make sketches on the website.
+
+## Sticky notes
+The sticky notes feature allows users to add notes and reminders to the website.
+
+## White board
+The white board feature allows users to collaborate with others in real-time and share ideas.
+
+## Usage
+To use these features, simply click on the corresponding button in the website's toolbar. For example, to use the drawing pen feature, click on the "drawing pen" button in the toolbar.
+
+
+
 ## Website Overview
 
-![alt text](https://github.com/immortalAbdul01/HackItOutIItPatna-team-avengers/blob/master/frontend/notes/src/images/overview.png?raw=true)
+![alt text](https://github.com/immortalAbdul01/HackItOutIItPatna-team-avengers/blob/master/frontend/notes/src/images/ov.png?raw=true)
 
+# Live Link
+ (https://ornate-seahorse-261788.netlify.app/)
 
 # Run this website in your local system
 
