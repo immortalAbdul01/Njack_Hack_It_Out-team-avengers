@@ -57,6 +57,6 @@ To use these features, simply click on the corresponding button in the website's
 
 
 ## Thanks to all the contributors ❤️
-<a href = "https://github.com/immortalAbdul01/HackItOutIItPatna-team-avengers/contributors">
-  <img src = "https://contrib.rocks/image?repo=immortalAbdul01/HackItOutIItPatna-team-avengers"/>
+<a href = "https://github.com/immortalAbdul01/Njack_Hack_It_Out-team-avengers/contributors">
+  <img src = "https://contrib.rocks/image?repo=immortalAbdul01/Njack_Hack_It_Out-team-avengers"/>
 </a>
