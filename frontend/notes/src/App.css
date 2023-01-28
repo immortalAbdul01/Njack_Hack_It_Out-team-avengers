@@ -1,6 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  overflow-y: auto;
+  /* background-color: orange; */
 }
 
 .App {

@@ -1,12 +1,12 @@
-.note-container {
+.note-container2 {
     height: 100%;
 }
 
-.note-container h2 {
+.note-container2 h2 {
     margin-bottom: 20px;
 }
 
-.note-container_notes {
+.note-container_notes2 {
     height: 90%;
     display: flex;
     flex-wrap: wrap;

@@ -3,10 +3,12 @@
   height: 800px;
   background-color: #e4e4e4;
   overflow-y: auto;
+  overflow-x: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .error-msg {
   width: 100%;

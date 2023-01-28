@@ -18,9 +18,9 @@ function NoteContainer(props) {
     const notes = reverArray(props.notes);
 
     return (
-        <div className="note-container">
+        <div className="note-container2">
             <h2>Notes</h2>
-            <div className="note-container_notes custom-scroll">
+            <div className="note-container_notes2 custom-scroll">
                 {notes?.length > 0 ? (
                     notes.map((item) => (
                         <Note

@@ -13,6 +13,8 @@ import Notes from './Notes'
 import Board from './WhiteBoardComponents/Board'
 // import name from './pages/Login'
 import SignUp from './pages/SignUp';
+import ImageNotes from './ImageComponents/imageNotes'
+import About from './pages/About';
 // import DrawingTool from './WhiteBoardComponents/drawingTool';
 
 const App = () => {
@@ -28,6 +30,8 @@ const App = () => {
         <Routes>
 
           <Route exact path="/login" element={<Login />} />
+          <Route exact path="/image" element={<ImageNotes />} />
+          <Route exact path="/about" element={<About />} />
           <Route exact path="/notes" element={<Notes />} />
 
           <Route exact path="/sign" element={<SignUp />} />

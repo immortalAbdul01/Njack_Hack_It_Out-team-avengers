@@ -324,7 +324,7 @@ function App() {
             />
             <canvas
                 id="canvas"
-                className="App"
+                className="App2"
                 width={window.innerWidth}
                 height={window.innerHeight}
                 onMouseDown={handleMouseDown}

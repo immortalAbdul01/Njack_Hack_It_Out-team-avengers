@@ -50,13 +50,13 @@ function Note(props) {
     };
 
     return (
-        <div className="note" style={{ backgroundColor: props.note.color }}>
+        <div className="note2" style={{ backgroundColor: props.note.color }}>
             <textarea
-                className="note_text"
+                className="note_text2"
                 defaultValue={props.note.text}
                 onChange={(event) => updateText(event.target.value, props.note.id)}
             />
-            <div className="note_footer">
+            <div className="note_footer2">
                 <p>{formatDate(props.note.time)}</p>
                 <img
                     src={deleteIcon}
